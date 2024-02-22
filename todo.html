@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        background-color: papayawhip;
+      }
+      .container {
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      .submit {
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      #itemInput {
+        margin-right: 10px;
+      }
+
+      #itemList {
+        list-style-type: none;
+        padding: 0;
+        margin-top: 20px;
+        text-align: left;
+      }
+
+      li {
+        margin-bottom: 5px;
+        text-align: center;
+      }
+
+      button {
+        font-style: italic;
+        margin-left: 5px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+    <title>To Do List</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>TO DO List</h1>
+      <ul id="itemList"></ul>
+    </div>
+
+    <div class="submit">
+      <input type="text" id="itemInput" />
+      <button id="addItem">Add to List</button>
+    </div>
+
+    <script type="text/javascript" src="/todo.js"></script>
+  </body>
+</html>
